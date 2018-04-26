@@ -1,0 +1,15 @@
+<h1>List of task</h1>
+
+<%= link_to 'New task', new_task_path %>
+<%= form_with scope: :tasks, local: true do |form| %>
+<table border="2">
+  <% @tasks.each do |task| %>
+    <tr>
+      <td><%= form.check_box :delete_item %></td>
+      <td><%= link_to task.title, task_path(task) %></td>
+      <td><%= link_to 'Edit', edit_task_path(task) %></td>
+      <td><%= link_to 'Delete', task_path(task), method: :delete, data: {confirm: 'Are you sure?'} %></td>
+    </tr>
+  <% end %>
+<% end %>
+</table>
