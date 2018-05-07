@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84f84d8c-0089-4414-9e62-cde036c4f901" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="84f84d8c-0089-4414-9e62-cde036c4f901" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +11,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/project@Development__project.rcov" NAME="Development: project Coverage Results" MODIFIED="1524069086290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="project" />
+    <SUITE FILE_PATH="coverage/project@app_update__project.rcov" NAME="app:update: project Coverage Results" MODIFIED="1525701278223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="project" />
     <SUITE FILE_PATH="coverage/project@db_migrate__project.rcov" NAME="db:migrate: project Coverage Results" MODIFIED="1524682373110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="project" />
     <SUITE FILE_PATH="coverage/project@schema.rcov" NAME="schema Coverage Results" MODIFIED="1524682626534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" MODULE_NAME="project" />
     <SUITE FILE_PATH="coverage/project@rails_server.rcov" NAME="rails server Coverage Results" MODIFIED="1525691660885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="project" />
@@ -47,13 +45,6 @@
         <item name="development.sqlite3" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="development.sqlite3" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-        <item name="tasks: table" type="ffe0bd85:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -104,7 +95,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
+            <state relative-caret-position="-87">
               <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
             </state>
           </provider>
@@ -287,7 +278,7 @@
   <component name="PropertiesComponent">
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="true" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
-    <property name="RunAnythingHistoryKey" value="git add .&#9;null&#9;null&#10;heroku logs&#9;null&#9;null&#10;heroku open&#9;null&#9;null&#10;heroku restart&#9;null&#9;null&#10;heroku run rake db:migrate&#9;null&#9;null&#10;heroku run db:migrate&#9;null&#9;null&#10;git push heroku master&#9;null&#9;null&#10;git commit&#9;null&#9;null&#10;Install&#9;ACTION&#9;org.jetbrains.plugins.ruby.gem.bundler.actions.RunBundlerInstallAction&#10;Update&#9;ACTION&#9;org.jetbrains.plugins.ruby.gem.bundler.actions.RunBundlerUpdateAction&#10;bundle install --without production&#9;null&#9;null&#10;rails generate integration_test user_pages&#9;null&#9;null&#10;rails generate integration test user_pages&#9;null&#9;null&#10;rails server&#9;RUN_CONFIGURATION&#9;rails server&#10;rails db:migrate&#9;null&#9;null&#10;srop server&#9;null&#9;null&#10;Migration&#9;ACTION&#9;rails:generator:migration&#10;rails console&#9;null&#9;null&#10;rails generate controller Users&#9;null&#9;null&#10;rails routes&#9;null&#9;null&#10;rake db:migrate&#9;null&#9;null&#10;rails generate model User first_name:string last_name:string email:string&#9;null&#9;null&#10;rails generate model first_name:string last_name:string email:string&#9;null&#9;null&#10;rails generate rspec:install&#9;null&#9;null&#10;rails s&#9;null&#9;null&#10;heroku&#9;null&#9;null&#10;rails roites&#9;null&#9;null&#10;rails db:migrate RAILS_ENV=development &#9;null&#9;null&#10;db:drop:_unsafe: project&#9;RUN_CONFIGURATION&#9;db:drop:_unsafe: project&#10;db:drop:_unsafe&#9;null&#9;null&#10;rails db:migrate RAILS_ENV=development&#9;null&#9;null&#10;schema&#9;RUN_CONFIGURATION&#9;schema&#10;db:reset&#9;ACTION&#9;rake:db:reset&#10;db:migrate&#9;ACTION&#9;rake:db:migrate&#10;db:create&#9;ACTION&#9;rake:db:create&#10;db:migrate:reset&#9;ACTION&#9;rake:db:migrate:reset&#10;rails db:update&#9;null&#9;null&#10;rails db:drop&#9;null&#9;null&#10;rails generate model Task title:string discription:text due_date:date&#9;null&#9;null&#10;rails generate module Task title:string discription:text due_date:date&#9;null&#9;null&#10;rails generate controller Tasks&#9;null&#9;null&#10;rails generate controller Welcome index&#9;null&#9;null&#10;cd config&#9;null&#9;null&#10;cd bin&#9;null&#9;null&#10;generate controller Welcome index&#9;null&#9;null&#10;bin/rails generate controller Welcome index&#9;null&#9;null" />
+    <property name="RunAnythingHistoryKey" value="git push&#9;null&#9;null&#10;git commit&#9;null&#9;null&#10;Install&#9;ACTION&#9;org.jetbrains.plugins.ruby.gem.bundler.actions.RunBundlerInstallAction&#10;app:update&#9;ACTION&#9;rake:app:update&#10;rails update&#9;null&#9;null&#10;heroku open&#9;null&#9;null&#10;winpty heroku login&#9;null&#9;null&#10;heroku login&#9;null&#9;null&#10;heroku logs&#9;null&#9;null&#10;heroku run rake db:migrate&#9;null&#9;null&#10;git push heroku&#9;null&#9;null&#10;git heroku push&#9;null&#9;null&#10;git add .&#9;null&#9;null&#10;heroku restart&#9;null&#9;null&#10;heroku run db:migrate&#9;null&#9;null&#10;git push heroku master&#9;null&#9;null&#10;Update&#9;ACTION&#9;org.jetbrains.plugins.ruby.gem.bundler.actions.RunBundlerUpdateAction&#10;bundle install --without production&#9;null&#9;null&#10;rails generate integration_test user_pages&#9;null&#9;null&#10;rails generate integration test user_pages&#9;null&#9;null&#10;rails server&#9;RUN_CONFIGURATION&#9;rails server&#10;rails db:migrate&#9;null&#9;null&#10;srop server&#9;null&#9;null&#10;Migration&#9;ACTION&#9;rails:generator:migration&#10;rails console&#9;null&#9;null&#10;rails generate controller Users&#9;null&#9;null&#10;rails routes&#9;null&#9;null&#10;rake db:migrate&#9;null&#9;null&#10;rails generate model User first_name:string last_name:string email:string&#9;null&#9;null&#10;rails generate model first_name:string last_name:string email:string&#9;null&#9;null&#10;rails generate rspec:install&#9;null&#9;null&#10;rails s&#9;null&#9;null&#10;heroku&#9;null&#9;null&#10;rails roites&#9;null&#9;null&#10;rails db:migrate RAILS_ENV=development &#9;null&#9;null&#10;db:drop:_unsafe: project&#9;RUN_CONFIGURATION&#9;db:drop:_unsafe: project&#10;db:drop:_unsafe&#9;null&#9;null&#10;rails db:migrate RAILS_ENV=development&#9;null&#9;null&#10;schema&#9;RUN_CONFIGURATION&#9;schema&#10;db:reset&#9;ACTION&#9;rake:db:reset&#10;db:migrate&#9;ACTION&#9;rake:db:migrate&#10;db:create&#9;ACTION&#9;rake:db:create&#10;db:migrate:reset&#9;ACTION&#9;rake:db:migrate:reset&#10;rails db:update&#9;null&#9;null&#10;rails db:drop&#9;null&#9;null&#10;rails generate model Task title:string discription:text due_date:date&#9;null&#9;null&#10;rails generate module Task title:string discription:text due_date:date&#9;null&#9;null&#10;rails generate controller Tasks&#9;null&#9;null&#10;rails generate controller Welcome index&#9;null&#9;null&#10;cd config&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="RemoteServers" />
@@ -321,13 +312,18 @@
       <command value="rails generate integration test user_pages" />
       <command value="rails generate integration_test user_pages" />
       <command value="bundle install --without production" />
-      <command value="git add ." />
       <command value="git commit" />
       <command value="git push heroku master" />
       <command value="heroku run db:migrate" />
+      <command value="heroku restart" />
+      <command value="git add ." />
+      <command value="git heroku push" />
+      <command value="git push heroku" />
       <command value="heroku run rake db:migrate" />
-      <command value="heroku open" />
       <command value="heroku logs" />
+      <command value="heroku login" />
+      <command value="winpty heroku login" />
+      <command value="heroku open" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -342,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.rails server">
+  <component name="RunManager" selected="Rake.app:update: project">
     <configuration name="Development: project" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="project" />
@@ -401,6 +397,23 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
     </configuration>
+    <configuration name="app:update: project" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="project" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="app:update" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
     <configuration name="db:drop:_unsafe: project" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="project" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -426,27 +439,6 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-    </configuration>
-    <configuration name="db:migrate: project" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="project" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="development" />
-        <env name="VERSION" value="20180425172748" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
@@ -534,18 +526,18 @@
       <item itemvalue="Rake.spec: project" />
       <item itemvalue="Rake.db:migrate" />
       <item itemvalue="Ruby.schema" />
-      <item itemvalue="Rake.db:migrate: project" />
       <item itemvalue="Rake.db:reset: project" />
       <item itemvalue="Rake.db:drop:_unsafe: project" />
       <item itemvalue="Rails.rails server" />
+      <item itemvalue="Rake.app:update: project" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Rake.app:update: project" />
         <item itemvalue="Rails.rails server" />
         <item itemvalue="Rails.rails server" />
         <item itemvalue="Rake.db:drop:_unsafe: project" />
         <item itemvalue="Ruby.schema" />
-        <item itemvalue="Rake.db:reset: project" />
       </list>
     </recent_temporary>
   </component>
@@ -563,7 +555,7 @@
       <workItem from="1523724276848" duration="3625000" />
       <workItem from="1524056844348" duration="22276000" />
       <workItem from="1524742156341" duration="13009000" />
-      <workItem from="1525689482021" duration="8338000" />
+      <workItem from="1525689482021" duration="9932000" />
     </task>
     <task id="LOCAL-00001" summary="Tasks version 1">
       <created>1524739685811</created>
@@ -586,11 +578,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525698961765</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="for heroku">
+      <created>1525699856138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525699856138</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47248000" />
+    <option name="totallyTimeSpent" value="48842000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,13 +985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1017,9 +1009,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
+        <state relative-caret-position="-87">
           <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
         </state>
       </provider>
