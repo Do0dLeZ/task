@@ -14,6 +14,7 @@ describe User do
   it {should respond_to(:password_digest) }
   it {should respond_to(:password) }
   it {should respond_to(:password_confirmation) }
+  it {should respond_to(:authenticate)}
 
   describe "when full name valid" do
     let(:example_full_name) {"Example Name Example Last Name"}
@@ -120,6 +121,11 @@ describe User do
       let(:user_with_wrong_password) {founded_user.authenticate("doodlez")}
       it {should_not eq user_with_wrong_password}
       specify {expect(user_with_wrong_password).to be_falsey}
+    end
+
+    describe "Remember token" do
+      before { @user.save }
+      it { expect(@user.remember_token).not_to be_blank}
     end
   end
 end

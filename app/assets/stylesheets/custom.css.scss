@@ -145,11 +145,16 @@ aside {
 
 /* forms */
 
+
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
+}
+
+.btn {
+  width: auto !important;
 }
 
 input {
@@ -169,4 +174,8 @@ input {
 .field_with_errors {
   @extend .control-group !optional;
   @extend .error !optional;
+}
+
+.margin-top {
+  margin-top: 10px;
 }
