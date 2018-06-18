@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84f84d8c-0089-4414-9e62-cde036c4f901" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/task.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/task.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-    </list>
+    <list default="true" id="84f84d8c-0089-4414-9e62-cde036c4f901" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -709,7 +704,7 @@
       <workItem from="1528720056088" duration="754000" />
       <workItem from="1528801347077" duration="2790000" />
       <workItem from="1529039402628" duration="599000" />
-      <workItem from="1529310500641" duration="13583000" />
+      <workItem from="1529310500641" duration="13854000" />
     </task>
     <task id="LOCAL-00001" summary="Tasks version 1">
       <created>1524739685811</created>
@@ -817,7 +812,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164894000" />
+    <option name="totallyTimeSpent" value="165165000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
