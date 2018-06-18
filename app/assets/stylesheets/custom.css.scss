@@ -179,3 +179,28 @@ input {
 .margin-top {
   margin-top: 10px;
 }
+
+/* Tasks index */
+
+$grayLighter : #D5D3D3;
+
+.tasks {
+  list-style: none;
+  margin-top: 10px;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid $grayLighter;
+    &:last-child {
+      border-bottom: 1px solid $grayLighter;
+    }
+  }
+}
+
+/* Checkbox */
+
+input[type="checkbox"] {
+  float:left;
+  width:auto;
+  margin-right: 5px;
+}

@@ -1,7 +1,9 @@
 class TasksController < ApplicationController
 
+  before_action :signed_in_user
+
   def index
-    @tasks = Task.all
+    @tasks = Task.paginate(per_page: 5, page: params[:page])
   end
 
   def show
@@ -18,7 +20,6 @@ class TasksController < ApplicationController
 
   def create
     @task = Task.new(task_params)
-
     if @task.save
       redirect_to @task
     else
@@ -28,7 +29,6 @@ class TasksController < ApplicationController
 
   def update
     @task = Task.find(params[:id])
-
     if @task.update(task_params)
       redirect_to @task
     else
@@ -47,5 +47,13 @@ class TasksController < ApplicationController
 
   def task_params
     params.required(:task).permit(:title, :description, :due_date)
+  end
+
+  def select_tasks
+    @tasks = Task.all
+  end
+
+  def signed_in_user
+    redirect_to signin_url if current_user.nil?
   end
 end

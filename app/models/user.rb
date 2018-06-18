@@ -20,7 +20,7 @@ class User < ApplicationRecord
   end
 
   before_save :downcase_email
-  before_create :create_remember_token
+  before_create :create_remember_token, :confirmation_token
 
   def User.new_remember_token
     SecureRandom.urlsafe_base64
@@ -28,6 +28,12 @@ class User < ApplicationRecord
 
   def User.encrypt(token)
     Digest::SHA1.hexdigest(token.to_s)
+  end
+
+  def email_activate
+    self.email_confirmed = true
+    self.confirm_token = nil
+    self.update_attribute(:email_confirmed, true)
   end
 
   private
@@ -38,5 +44,11 @@ class User < ApplicationRecord
 
     def downcase_email
       self.email = email.downcase
+    end
+
+    def confirmation_token
+      if self.confirm_token.blank?
+        self.confirm_token= SecureRandom.urlsafe_base64.to_s
+      end
     end
 end
