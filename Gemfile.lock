@@ -239,7 +239,7 @@ DEPENDENCIES
   factory_girl_rails (= 4.2.1)
   jbuilder (~> 2.5)
   jquery-rails
-  pg (~> 0.18.0)
+  pg
   puma (~> 3.11)
   rails (~> 5.2.0)
   rails_12factor
