@@ -20,7 +20,7 @@
     <%= form.number_field :priority %>
   </p>
 
-  <% if current_page?(edit_task_path) || params[:action] == 'update' %>
+  <% if params[:action] == ('update' || 'edit') %>
     <p>
       <%= form.label :finished %>
       <%= form.check_box :finished %>
