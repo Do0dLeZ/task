@@ -43,7 +43,7 @@ class TasksController < ApplicationController
   private
 
   def task_params
-    params.required(:task).permit(:title, :description, :due_date)
+    params.required(:task).permit(:title, :description, :due_date, :priority, :finished)
   end
 
   def signed_in_user

@@ -15,6 +15,17 @@
     <%= form.date_field :due_date %>
   </p>
 
+  <p>
+    <%= form.label :priority %><br>
+    <%= form.number_field :priority %>
+  </p>
+
+  <% if current_page?(edit_task_path) || params[:action] == 'update' %>
+    <p>
+      <%= form.label :finished %>
+      <%= form.check_box :finished %>
+    </p>
+  <% end %>
   <%= form.submit class: 'btn btn-primary btn-sm' %>
   <%= link_to 'Back', tasks_path, class: 'btn btn-primary btn-sm' %>
 <% end %>
