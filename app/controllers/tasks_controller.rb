@@ -3,7 +3,7 @@ class TasksController < ApplicationController
   before_action :signed_in_user
 
   def index
-    @tasks = Task.paginate(per_page: 5, page: params[:page])
+    @tasks = current_user.tasks.paginate(per_page: 5, page: params[:page])
   end
 
   def show
@@ -19,7 +19,7 @@ class TasksController < ApplicationController
   end
 
   def create
-    @task = Task.new(task_params)
+    @task = current_user.tasks.new(task_params)
     if @task.save
       redirect_to @task
     else
