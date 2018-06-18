@@ -1,13 +1,13 @@
 class TasksController < ApplicationController
 
   before_action :signed_in_user
+  before_action :belong_to, only: [:show, :destroy, :edit, :update]
 
   def index
     @tasks = current_user.tasks.paginate(per_page: 5, page: params[:page])
   end
 
   def show
-    @task = Task.find(params[:id])
   end
 
   def new
@@ -15,7 +15,6 @@ class TasksController < ApplicationController
   end
 
   def edit
-    @task = Task.find(params[:id])
   end
 
   def create
@@ -28,7 +27,7 @@ class TasksController < ApplicationController
   end
 
   def update
-    @task = Task.find(params[:id])
+
     if @task.update(task_params)
       redirect_to @task
     else
@@ -37,9 +36,7 @@ class TasksController < ApplicationController
   end
 
   def destroy
-    @task = Task.find(params[:id])
     @task.destroy
-
     redirect_to tasks_path
   end
 
@@ -49,11 +46,13 @@ class TasksController < ApplicationController
     params.required(:task).permit(:title, :description, :due_date)
   end
 
-  def select_tasks
-    @tasks = Task.all
-  end
-
   def signed_in_user
     redirect_to signin_url if current_user.nil?
+  end
+
+  # AS we don't have admin we block task for other users
+  def belong_to
+    @task = Task.find(params[:id])
+    redirect_to root_path, notice: "No Access" unless current_user.tasks.exists?(params[:id])
   end
 end
